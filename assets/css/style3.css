@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 100px;   
+    width: 500px; 
+}
+.container > #titulo{
+    color: blue;
+    align-items: center;
+}
+.digito{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.container > #Ingresar{
+    margin-top: 20px;
+}
